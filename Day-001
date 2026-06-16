@@ -1,1 +1,68 @@
+#Day 001 - C# Fundamentals & Banking Application
 
+**Date:** 15 June 2026
+
+## Topics Learned
+
+During my C# learning journey, I covered the following fundamental concepts:
+
+* Data Types
+* Variables
+* Arrays
+* Conditional Statements
+* Loops
+* Methods
+* Object-Oriented Programming (OOP)
+
+  * Classes and Objects
+  * Constructors
+  * Properties
+  * Encapsulation
+  * Inheritance
+  * Polymorphism
+
+## Project Built
+
+### Banking Application
+
+To apply the concepts I learned, I built a simple Banking Application using C# and Windows Forms.
+
+#### Features Implemented
+
+* Create Bank Accounts
+* Support for Current Account and Savings Account
+* Deposit Functionality
+* Withdrawal Functionality
+* Balance Management
+* Unique Account Number Generation using Guid
+* Display Account Information using DataGridView
+
+#### Concepts Used
+
+* Classes and Objects
+* Inheritance
+* Collections (List<BankAccount>)
+* Event Handling
+* Properties
+* Constructors
+* Data Binding
+* Windows Forms Controls
+
+## Challenges Faced
+
+* Understanding event handling in Windows Forms
+* Debugging button click events
+* Managing DataGridView selections
+* Refreshing data after transactions
+
+## Key Takeaways
+
+Building a real project helped me understand how Object-Oriented Programming concepts are used in practical applications. I also learned how to debug issues and connect UI elements with backend logic.
+
+## Next Learning Goal
+
+* Collections in depth
+* Exception Handling
+* Interfaces
+* LINQ Basics
+* More WinForms practice
