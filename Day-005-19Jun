@@ -1,1 +1,14 @@
+Day 002 - Learning Log
 
+📅 Date: 19 June 2026
+
+What I did today:
+LINQ-
+LINQ means Langauge intergarted Query
+It helps find, sort and filter the data
+No long loops- just short , simple commands 
+Works with list, databases and more.
+
+Lambda expression-
+A shortcut to write tiny functions
+Helps LINQ know what to look for.
