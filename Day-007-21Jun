@@ -1,1 +1,69 @@
+# Day 008 - Learning Log
 
+📅 **Date:** 23 June 2026
+
+## What I Learned Today
+
+Continued my SQL learning journey and completed the following topics:
+
+* Queries with Constraints (Part 1)
+* Filtering and Sorting Query Results
+* Multi-table Queries with JOINs
+* OUTER JOINs
+* Understanding NULL Values
+* Queries with Expressions
+
+## Concepts Covered
+
+### Queries with Constraints
+
+* Used conditions to retrieve specific records from tables.
+* Applied comparison operators such as `=`, `!=`, `>`, `<`, `>=`, and `<=`.
+
+### Filtering and Sorting Results
+
+* Filtered data using the `WHERE` clause.
+* Sorted query results using `ORDER BY` in ascending and descending order.
+
+### Multi-table Queries with JOINs
+
+* Learned how to combine data from multiple tables using `JOIN`.
+* Understood the relationship between tables using primary and foreign keys.
+
+### OUTER JOINs
+
+* Explored how OUTER JOINs return matching and non-matching records.
+* Learned the difference between INNER JOIN and OUTER JOIN.
+
+### NULL Values
+
+* Understood the meaning of NULL in databases.
+* Learned how to handle NULL values using `IS NULL` and `IS NOT NULL`.
+
+### Queries with Expressions
+
+* Performed calculations within queries.
+* Used expressions to generate derived values from existing columns.
+
+## Key Takeaways
+
+* JOINs are essential for working with relational databases.
+* OUTER JOINs help retrieve records even when matching data does not exist in another table.
+* NULL requires special handling and cannot be compared using standard operators.
+* SQL expressions can make query results more meaningful and dynamic.
+
+## Progress Status
+
+✅ Completed Constraints and Filtering
+✅ Learned Sorting Techniques
+✅ Understood JOINs and OUTER JOINs
+✅ Learned NULL Handling
+✅ Practiced SQL Expressions
+
+## Next Goal (Day 009)
+
+* Aggregate Functions (`COUNT`, `SUM`, `AVG`, `MIN`, `MAX`)
+* `GROUP BY`
+* `HAVING`
+* Advanced JOIN Practice
+* More SQLBolt Exercises
