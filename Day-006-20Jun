@@ -1,1 +1,39 @@
+Day 006 - Learning Log
 
+📅 Date: 21 June 2026
+
+What I Learned Today
+Started learning SQL from scratch using SQLBolt.
+Learned the fundamentals of relational databases and tables.
+Practiced writing basic SELECT queries to retrieve data from tables.
+Learned how to use WHERE clauses to filter records based on specific conditions.
+Completed introductory SQL exercises and gained hands-on experience with querying data.
+Concepts Covered
+Database Tables
+Rows and Columns
+SELECT Statement
+Selecting Specific Columns
+WHERE Clause
+Basic Data Filtering
+Resource Used
+SQLBolt
+
+Key Takeaways
+SQL is used to retrieve and manipulate data stored in databases.
+The SELECT statement is the foundation of querying data.
+WHERE clauses help filter data and return only the required records.
+Understanding tables, rows, and columns is essential before moving to advanced SQL concepts.
+Progress Status
+
+✅ Started SQL Learning Journey
+✅ Completed Basic SELECT Queries
+✅ Learned WHERE Clauses and Data Filtering
+
+Next Goal (Day 007)
+Learn:
+ORDER BY
+LIMIT
+INSERT
+UPDATE
+DELETE
+Complete the next SQLBolt lessons and practice writing queries independently.
