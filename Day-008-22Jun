@@ -1,1 +1,88 @@
+# Day 008 - Learning Log
 
+📅 **Date:** 23 June 2026
+
+## What I Learned Today
+
+Continued my SQL learning journey and completed the following topics:
+
+* Queries with Constraints
+* Queries with Aggregates
+* Order of Execution of a Query
+* Inserting Rows
+* Updating Rows
+* Deleting Rows
+* Creating Tables
+* Altering Tables
+* Dropping Tables
+
+## Concepts Covered
+
+### Queries with Constraints
+
+* Used conditions to filter records from tables.
+* Applied comparison operators and logical conditions.
+
+### Queries with Aggregates
+
+* Learned aggregate functions:
+
+  * `COUNT()`
+  * `SUM()`
+  * `AVG()`
+  * `MIN()`
+  * `MAX()`
+* Used aggregates to summarize data.
+
+### Order of Execution of a Query
+
+* Understood the logical order in which SQL processes a query:
+
+  * `FROM`
+  * `WHERE`
+  * `GROUP BY`
+  * `HAVING`
+  * `SELECT`
+  * `ORDER BY`
+  * `LIMIT`
+
+### Inserting Rows
+
+* Added new records using the `INSERT INTO` statement.
+
+### Updating Rows
+
+* Modified existing records using the `UPDATE` statement along with `WHERE` conditions.
+
+### Deleting Rows
+
+* Removed records from tables using the `DELETE` statement.
+
+### Creating Tables
+
+* Learned how to create new tables using the `CREATE TABLE` statement.
+* Defined columns and data types.
+
+### Altering Tables
+
+* Modified existing table structures using `ALTER TABLE`.
+* Added, modified, and removed columns.
+
+### Dropping Tables
+
+* Learned how to permanently remove tables using the `DROP TABLE` statement.
+
+## Key Takeaways
+
+* Aggregate functions are useful for analyzing and summarizing data.
+* Understanding query execution order helps in writing efficient SQL queries.
+* SQL supports full data manipulation through INSERT, UPDATE, and DELETE operations.
+* Database schemas can be created and modified using DDL commands such as CREATE, ALTER, and DROP.
+
+## Progress Status
+
+✅ Learned Aggregate Functions
+✅ Understood Query Execution Order
+✅ Practiced INSERT, UPDATE, and DELETE
+✅ Learned CREATE TABLE and ALTER TABLE
+✅ Understood DROP TABLE Operations
