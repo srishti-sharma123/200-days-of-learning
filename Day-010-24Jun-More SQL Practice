@@ -1,1 +1,32 @@
+# Day 010 - Learning Log
 
+📅 **Date:** 24 June 2026
+
+## What I Learned Today
+
+Continued practicing SQL problems on LeetCode to strengthen my database fundamentals before starting Entity Framework Core.
+
+### Problems Solved
+
+* 577. Employee Bonus
+* 197. Rising Temperature
+* 511. Game Play Analysis I
+
+## Key Takeaways
+
+* SQL problem-solving becomes easier when breaking problems into smaller logical steps.
+* JOINs, GROUP BY, and Aggregate Functions are among the most important concepts for database interviews.
+* Strong SQL fundamentals will make Entity Framework and LINQ much easier to understand.
+* Many Entity Framework queries are translated into the same SQL concepts practiced today.
+
+## Progress Status
+
+✅ Completed SQL Fundamentals
+✅ Practiced Real Interview Questions
+✅ Strengthened JOIN and GROUP BY Concepts
+✅ Improved Query Writing Skills
+✅ Ready to Begin Entity Framework Core
+
+## Next Goal (Day 011)
+
+* Introduction to Entity Framework Core
