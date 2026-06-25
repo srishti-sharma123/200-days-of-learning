@@ -1,1 +1,50 @@
+# Day 011 - Learning Log
 
+📅 **Date:** 25 June 2026
+
+## What I Learned Today
+
+Started learning Microsoft Entity Framework Core (EF Core), the ORM framework used in .NET applications to interact with databases.
+
+Focused on understanding the fundamental concepts before diving into practical implementation.
+
+## Concepts Covered
+
+### What is Entity Framework Core?
+
+* Learned that Entity Framework Core is an Object-Relational Mapper (ORM).
+* It allows developers to work with databases using C# objects instead of writing raw SQL queries for every operation.
+
+### Entities
+
+* Understood that entities are C# classes that represent database tables.
+* Each object of an entity class corresponds to a row in the database table.
+
+### Microsoft.EntityFrameworkCore Package
+
+* Learned about the primary NuGet package required to use Entity Framework Core in a .NET application.
+
+### Connection String
+
+* Explored how connection strings are used to establish communication between an application and a database.
+* Learned the basic structure and purpose of a connection string.
+
+### DbContext
+
+* Learned that DbContext acts as a bridge between the application and the database.
+* Understood that it manages entity objects, database connections, and CRUD operations.
+
+## Key Takeaways
+
+* Entity Framework Core simplifies database interactions in .NET applications.
+* Entities represent database tables through C# classes.
+* DbContext is one of the most important components of EF Core.
+* Understanding the fundamentals first will make CRUD operations and migrations easier to learn.
+
+## Progress Status
+
+✅ Started Entity Framework Core
+✅ Understood ORM Concepts
+✅ Learned About Entities   
+✅ Learned About Connection Strings
+✅ Understood the Role of DbContext
