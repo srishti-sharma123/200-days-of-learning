@@ -1,1 +1,63 @@
+# Day 016 - Learning Log
 
+📅 **Date:** 30 June 2026
+
+## What I Learned Today
+
+Today, I set up my ASP.NET Core project to work with Entity Framework Core and configured the database connection.
+
+## Concepts Covered
+
+### Project Setup
+
+* Configured my development environment in Visual Studio.
+* Prepared the project for using Entity Framework Core.
+
+### Installing Entity Framework Core Packages
+
+* Learned how to install the required Entity Framework Core NuGet packages using the **Manage NuGet Packages** option.
+* Added the SQL Server provider package required to connect the application to a SQL Server database.
+
+### Configuring the Connection String
+
+* Learned how to store the database connection string in `appsettings.json`.
+* Understood why keeping the connection string in the configuration file is considered a best practice instead of hardcoding it in the application.
+
+### Registering DbContext
+
+* Learned how to register the `DbContext` with the dependency injection container using `AddDbContext()`.
+
+```csharp
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("AppDb")));
+```
+
+* Understood that:
+
+  * `AppDbContext` is the bridge between the application and the database.
+  * `UseSqlServer()` configures Entity Framework Core to use SQL Server as the database provider.
+  * `GetConnectionString("AppDb")` retrieves the connection string from `appsettings.json`.
+
+## Key Takeaways
+
+* Entity Framework Core uses `DbContext` to communicate with the database.
+* Dependency Injection makes the `DbContext` available throughout the application.
+* Storing connection strings in configuration files improves maintainability and follows industry best practices.
+* Installing the correct NuGet packages is the first step toward building a database-driven ASP.NET Core application.
+
+## Progress Status
+
+✅ Configured Entity Framework Core
+✅ Installed Required NuGet Packages
+✅ Added SQL Server Provider
+✅ Configured Connection String
+✅ Registered `AppDbContext` with Dependency Injection
+
+## Next Goal (Day 017)
+
+* Create Entity Models
+* Create the `AppDbContext` class
+* Add `DbSet` properties
+* Generate the first migration
+* Create the database using Entity Framework Core
