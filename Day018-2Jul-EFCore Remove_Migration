@@ -1,0 +1,59 @@
+# Day 018 - Learning Log
+
+📅 **Date:** 2 July 2026
+
+## What I Learned Today
+
+Continued learning **Entity Framework Core** by understanding how to remove migrations using the **Package Manager Console** in Visual Studio.
+
+## Concepts Covered
+
+### Removing Migrations in Entity Framework Core
+
+* Learned how to remove the most recently created migration using the **Package Manager Console**.
+* Navigated to:
+
+  * **Tools → NuGet Package Manager → Package Manager Console**
+* Executed the following command:
+
+```powershell
+Remove-Migration
+```
+
+### When to Use `Remove-Migration`
+
+* When a migration has been created with incorrect model changes.
+* When changes need to be modified before applying them to the database.
+* During development to maintain a clean migration history.
+
+### Migration Commands Learned
+
+* Create a new migration:
+
+  ```powershell
+  Add-Migration MigrationName
+  ```
+
+* Apply migrations to the database:
+
+  ```powershell
+  Update-Database
+  ```
+
+* Remove the latest migration:
+
+  ```powershell
+  Remove-Migration
+  ```
+
+## Key Takeaways
+
+* The **Package Manager Console** provides an easy way to manage Entity Framework Core migrations.
+* `Remove-Migration` removes only the latest migration and should be used before it has been permanently applied to the database.
+* Understanding the migration workflow is essential for managing database schema changes effectively during development.
+
+## Progress Status
+
+✅ Learned to use the Package Manager Console for EF Core commands
+✅ Understood how to remove the latest migration
+✅ Improved understanding of the Entity Framework Core migration workflow
