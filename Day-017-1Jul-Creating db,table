@@ -1,1 +1,46 @@
+# Day 017 - Learning Log
 
+📅 **Date:** 1 July 2026
+
+## What I Learned Today
+
+Continued learning **Entity Framework Core** and understood how to create a database and tables using **Code First Migrations**.
+
+## Concepts Covered
+
+### Creating the `DbContext`
+
+* Learned how to create a custom `AppDbContext` class by inheriting from `DbContext`.
+* Understood that `DbContext` acts as the bridge between the application and the database.
+* Added `DbSet` properties to represent database tables.
+
+### Entity Framework Core Migrations
+
+* Learned the basics of **Code First Migrations**.
+* Understood how Entity Framework Core tracks changes in entity models and generates migration files.
+
+### Creating Database & Tables
+
+* Learned how to create a database and tables using migrations.
+* Understood the purpose of the following commands:
+
+  * `Add-Migration <MigrationName>` – Creates a new migration based on model changes.
+  * `Update-Database` – Applies the migration and creates/updates the database.
+
+### Code First Approach
+
+* Learned that in the Code First approach, the database schema is generated from C# entity classes.
+* Understood how changes to models can be reflected in the database through new migrations.
+
+## Key Takeaways
+
+* `DbContext` is the central class responsible for interacting with the database.
+* `DbSet<TEntity>` represents a table in the database.
+* Migrations provide a safe and organized way to manage database schema changes.
+* The Code First approach enables developers to design the database using C# classes.
+
+## Progress Status
+
+✅ Created a Custom `DbContext`
+✅ Learned the Purpose of `DbSet`
+✅ Understood Code First Migrations
