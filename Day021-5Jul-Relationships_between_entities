@@ -1,0 +1,54 @@
+# Day 021 - Learning Log
+
+📅 **Date:** 5 July 2026
+
+## What I Learned Today
+
+Continued learning **Entity Framework Core** by exploring relationships between database tables and how Entity Framework Core manages them. 
+Also learned how to retrieve related data from multiple tables using joins.
+
+## Concepts Covered
+
+### One-to-One Relationship
+
+* Learned how to define a one-to-one relationship between two entities.
+* Understood how one record in a table is associated with exactly one record in another table.
+* Explored the use of primary keys and foreign keys to establish the relationship.
+
+### One-to-Many Relationship
+
+* Learned how to create a one-to-many relationship.
+* Understood that one parent entity can have multiple related child entities.
+* Configured navigation properties and foreign keys in Entity Framework Core.
+
+### Many-to-Many Relationship
+
+* Learned how Entity Framework Core supports many-to-many relationships.
+* Understood that multiple records from one table can be associated with multiple records in another table.
+* Explored how EF Core manages the junction (join) table automatically in many scenarios.
+
+### Foreign Keys
+
+* Learned how foreign keys establish relationships between tables.
+* Understood their role in maintaining referential integrity within a relational database.
+
+### Retrieving Data from Multiple Tables
+
+* Learned how to retrieve related data using **INNER JOIN**.
+* Understood how Entity Framework Core and LINQ can be used to query related entities.
+
+## Key Takeaways
+
+* Relationships are fundamental to designing normalized databases.
+* Navigation properties make it easier to work with related data in Entity Framework Core.
+* Foreign keys connect related entities and maintain data consistency.
+* Understanding table relationships is essential for building scalable and maintainable applications.
+
+## Progress Status
+
+✅ Learned One-to-One Relationship
+✅ Learned One-to-Many Relationship
+✅ Learned Many-to-Many Relationship
+✅ Understood Foreign Keys
+✅ Retrieved Data from Multiple Tables using INNER JOIN
+✅ Improved Understanding of Database Relationships
