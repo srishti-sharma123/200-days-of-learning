@@ -1,0 +1,85 @@
+# Day 020 - Learning Log
+
+📅 **Date:** 4 July 2026
+
+## What I Learned Today
+
+Today was a major milestone in my Entity Framework Core learning journey. I successfully connected my ASP.NET Core application to SQL Server,
+created a database using Entity Framework Core migrations, and implemented basic CRUD operations.
+
+## Concepts Covered
+
+### SQL Server Management Studio (SSMS)
+
+* Installed SQL Server Management Studio (SSMS).
+* Connected my ASP.NET Core application to SQL Server using a connection string.
+* Verified that the database and tables were successfully created in SSMS.
+
+### Configuring `DbContext`
+
+* Defined a custom `AppDbContext`.
+* Configured the `DbContext` in `Program.cs` using dependency injection.
+* Connected Entity Framework Core to SQL Server using the connection string stored in `appsettings.json`.
+
+### Creating Entity Models
+
+* Created an entity model representing a database table.
+* Learned how Entity Framework Core maps C# classes to database tables.
+* Understood the role of the primary key in entity models.
+
+### Working with `DbSet`
+
+* Added `DbSet<TEntity>` properties to the `AppDbContext`.
+* Learned that each `DbSet` represents a table in the database.
+
+### Entity Framework Core Migrations
+
+* Generated migrations using:
+
+```powershell
+Add-Migration InitialCreate
+```
+
+* Applied migrations to the database using:
+
+```powershell
+Update-Database
+```
+
+* Verified that the tables were successfully created in SQL Server Management Studio.
+
+### CRUD Operations
+
+Implemented and tested the following database operations:
+
+* **Add()** – Insert new records into the database.
+* **GetAll()** – Retrieve all records.
+* **GetById()** – Retrieve a specific record using its primary key.
+* **Update()** – Modify existing records.
+* **Delete()** – Remove records from the database.
+
+### Controllers
+
+* Created an ASP.NET Core API Controller.
+* Connected the controller with Entity Framework Core.
+* Successfully tested API endpoints for CRUD operations.
+
+## Key Takeaways
+
+* Entity Framework Core simplifies database interactions using C# objects.
+* `DbContext` acts as the bridge between the application and the database.
+* `DbSet<TEntity>` represents a database table.
+* Migrations help manage database schema changes efficiently.
+* CRUD operations form the foundation of most database-driven applications.
+* SQL Server Management Studio is useful for verifying database changes and inspecting tables.
+
+## Progress Status
+
+✅ Installed and Configured SQL Server Management Studio (SSMS)
+✅ Connected ASP.NET Core Application to SQL Server
+✅ Configured `DbContext` and Connection String
+✅ Created Entity Models and `DbSet` Properties
+✅ Generated and Applied Entity Framework Core Migrations
+✅ Created Database and Tables Successfully
+✅ Built API Controller
+✅ Implemented and Tested CRUD Operations (Create, Read, Update, Delete)
