@@ -1,0 +1,71 @@
+# Day 023 - Learning Log
+
+📅 **Date:** 7 July 2026
+
+## What I Learned Today
+
+Today, I started learning **ASP.NET Core Web API** and explored the fundamentals of REST architecture and 
+how APIs enable communication between clients and servers.
+
+## Concepts Covered
+
+### Introduction to REST and REST APIs
+
+* Learned what REST (Representational State Transfer) is.
+* Understood how REST APIs provide a standardized way for applications to communicate over HTTP.
+* Explored the client-server architecture used in modern web applications.
+
+### HTTP Methods
+
+Learned the purpose of the most commonly used HTTP methods:
+
+* **GET** – Retrieve data from the server.
+* **POST** – Create a new resource.
+* **PUT** – Update an existing resource.
+* **DELETE** – Remove a resource.
+
+### HTTP Requests and Responses
+
+* Understood the structure of an HTTP request.
+* Learned how a server processes requests and returns responses.
+* Explored request headers, request body, and response body.
+
+### HTTP Status Codes
+
+Learned the meaning of common HTTP status codes, including:
+
+* **200 OK** – Request completed successfully.
+* **201 Created** – A new resource was created.
+* **400 Bad Request** – The request is invalid.
+* **401 Unauthorized** – Authentication is required.
+* **404 Not Found** – The requested resource was not found.
+* **500 Internal Server Error** – An unexpected server-side error occurred.
+
+### Creating an ASP.NET Core Web API Project
+
+* Created my first ASP.NET Core Web API application.
+* Explored the project structure and understood the role of controllers in handling API requests.
+
+## Key Takeaways
+
+* REST APIs are the foundation of communication between modern web applications and services.
+* Each HTTP method is designed for a specific type of operation.
+* HTTP status codes help clients understand the outcome of a request.
+* ASP.NET Core Web API simplifies the process of building scalable and maintainable APIs.
+
+## Progress Status
+
+✅ Learned REST Architecture
+✅ Understood REST APIs
+✅ Learned HTTP Methods (GET, POST, PUT, DELETE)
+✅ Understood HTTP Requests and Responses
+✅ Learned Common HTTP Status Codes
+✅ Created My First ASP.NET Core Web API Project
+
+## Next Goal (Day 024)
+
+* Build a small CRUD Web API project
+* Create API Controllers
+* Implement GET, POST, PUT, and DELETE endpoints
+* Connect the Web API with Entity Framework Core
+* Test API endpoints using Swagger
