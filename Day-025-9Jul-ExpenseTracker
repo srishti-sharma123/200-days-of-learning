@@ -1,0 +1,61 @@
+# Day 025 - Learning Log
+
+📅 **Date:** 9 July 2026
+
+## What I Learned Today
+
+Today, I started building my own **Expense Tracker Web API** project from scratch using **ASP.NET Core Web API**, **Entity Framework Core**, and **SQL Server**. This project is helping me apply the concepts I've learned over the past few weeks in a real-world application.
+
+## Project Overview
+
+### Expense Tracker API
+
+Designed the application with the following entities:
+
+* **User** – Stores user information.
+* **Category** – Stores expense categories (e.g., Food, Travel, Bills).
+* **Transaction** – Stores income and expense transactions linked to users and categories.
+
+## Progress Made
+
+### Project Setup
+
+* Created a new ASP.NET Core Web API project.
+* Configured Entity Framework Core.
+* Connected the project to SQL Server using a connection string.
+* Created the required entity models.
+* Configured the `DbContext`.
+* Generated and applied database migrations.
+
+### CRUD Operations
+
+Implemented and tested basic CRUD operations for the API:
+
+* **POST** – Create a new record.
+* **GET** – Retrieve all records.
+* **GET by ID** – Retrieve a specific record.
+* **PUT** – Update an existing record.
+* **DELETE** – Remove a record.
+
+### API Testing
+
+* Used **Swagger UI** to test all API endpoints.
+* Verified that CRUD operations were working correctly.
+
+## Key Takeaways
+
+* Building a project from scratch reinforces the concepts learned through tutorials.
+* ASP.NET Core Web API and Entity Framework Core work together to simplify backend development.
+* Swagger is a valuable tool for testing and validating API endpoints during development.
+* Creating a structured project with multiple entities provides practical experience in designing backend applications.
+
+## Progress Status
+
+✅ Started the Expense Tracker Web API project
+✅ Designed the project structure
+✅ Created Entity Models
+✅ Configured `DbContext` and SQL Server connection
+✅ Generated and Applied Entity Framework Core Migrations
+✅ Implemented CRUD Operations
+✅ Tested API Endpoints using Swagger
+
