@@ -1,1 +1,62 @@
+# Day 024 - Learning Log
+
+📅 **Date:** 8 July 2026
+
+## What I Learned Today
+
+Continued learning **ASP.NET Core Web API** by following a hands-on tutorial and understanding how to build RESTful APIs using ASP.NET Core.
+
+## Concepts Covered
+
+### ASP.NET Core Web API Fundamentals
+
+* Continued exploring the architecture of an ASP.NET Core Web API application.
+* Understood how different components work together to process client requests.
+
+### Controllers
+
+* Learned how controllers handle incoming HTTP requests.
+* Understood the role of action methods in processing requests and returning responses.
+
+### API Routing
+
+* Explored attribute routing and how endpoints are mapped to controller actions.
+* Learned how clients access different API resources through routes.
+
+### CRUD Operations
+
+* Understood how REST APIs implement CRUD operations using HTTP methods:
+
+  * **GET** – Retrieve data
+  * **POST** – Create new data
+  * **PUT** – Update existing data
+  * **DELETE** – Delete data
+
+### Swagger
+
+* Continued using Swagger to explore and test API endpoints.
+* Learned how Swagger simplifies API testing during development.
+
+## Key Takeaways
+
+* Controllers act as the entry point for handling API requests.
+* Routing determines which controller action is executed for a given request.
+* REST APIs follow standard HTTP methods to perform CRUD operations.
+* Swagger is an effective tool for testing and validating API endpoints.
+
+## Progress Status
+
+✅ Continued Learning ASP.NET Core Web API
+✅ Understood Controllers and Routing
+✅ Learned RESTful CRUD Operations
+✅ Practiced API Development Using a Tutorial
+✅ Used Swagger for API Testing
+
+## Next Goal (Day 025)
+
+* Build my own **Expense Tracker Web API** from scratch
+* Create entity models
+* Configure Entity Framework Core
+* Implement CRUD operations
+* Test APIs using Swagger
 
