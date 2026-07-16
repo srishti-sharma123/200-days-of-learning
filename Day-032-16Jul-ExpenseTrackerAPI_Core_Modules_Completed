@@ -1,0 +1,92 @@
+# Day 032 - Learning Log
+
+📅 **Date:** 16 July 2026
+
+## What I Accomplished Today
+
+Completed the core modules of my **Expense Tracker API** project using ASP.NET Core Web API, Entity Framework Core, and SQL Server.
+
+This project helped me apply multiple backend development concepts together in a practical application.
+
+## Features Implemented
+
+### User Module
+
+* Created CRUD APIs for managing users.
+* Implemented endpoints to:
+
+  * Create User
+  * Get All Users
+  * Get User By Id
+  * Update User
+  * Delete User
+
+### Category Module
+
+* Created CRUD APIs for expense categories.
+* Implemented category management functionality.
+
+### Transaction Module
+
+* Created CRUD APIs for transactions.
+* Linked transactions with users and categories through foreign keys.
+
+## Technical Concepts Applied
+
+### Repository Pattern
+
+* Implemented the Repository Pattern to separate data access logic from controllers.
+* Improved code organization and maintainability.
+
+### DTOs (Data Transfer Objects)
+
+* Created DTOs for request and response models.
+* Prevented direct exposure of database entities.
+* Improved API structure and scalability.
+
+### Entity Framework Core
+
+* Integrated Entity Framework Core with SQL Server.
+* Used `DbContext` and `DbSet<>` for database operations.
+* Managed database schema changes using migrations.
+
+### Dependency Injection
+
+* Registered repositories and services using ASP.NET Core Dependency Injection.
+* Used constructor injection within controllers.
+
+### API Testing
+
+* Tested all endpoints using Swagger UI.
+* Verified CRUD functionality and API responses.
+
+## Key Takeaways
+
+* Building a project from scratch provides a much deeper understanding than following tutorials alone.
+* Repository Pattern improves code maintainability and separation of concerns.
+* DTOs help create cleaner and more secure APIs.
+* Entity Framework Core simplifies database interactions while maintaining flexibility.
+* Swagger is extremely useful for testing and debugging APIs during development.
+
+## Progress Status
+
+✅ User CRUD Module Completed
+✅ Category CRUD Module Completed
+✅ Transaction CRUD Module Completed
+✅ Repository Pattern Implemented
+✅ DTOs Implemented
+✅ Entity Framework Core Integrated
+✅ SQL Server Connected
+✅ Dependency Injection Configured
+✅ EF Core Migrations Applied
+✅ Swagger Testing Completed
+
+## Next Goal
+
+* Add Validation using Data Annotations
+* Implement Global Exception Handling
+* Add Filtering and Search APIs
+* Implement Pagination
+* Add Authentication & Authorization (JWT)
+* Deploy the API
+* Prepare the project for GitHub Portfolio and Resume
