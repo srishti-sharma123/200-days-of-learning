@@ -1,1 +1,79 @@
+# Day 040 - Learning Log
 
+📅 **Date:** 24 July 2026
+
+## What I Accomplished Today
+
+Successfully implemented the authentication module for my **Expense Tracker API** using JWT (JSON Web Token) authentication.
+
+This was a major step toward making the application secure and enabling user-specific access to resources.
+
+## Features Implemented
+
+### User Registration
+
+* Implemented user registration functionality.
+* Successfully stored user details in the database.
+* Verified that new users can be created through the API.
+
+### User Login
+
+* Implemented user login functionality.
+* Validated user credentials against stored records.
+* Returned appropriate responses for successful and failed login attempts.
+
+### Email Lookup
+
+* Implemented email-based user lookup.
+* Verified whether a user exists before processing authentication requests.
+
+### JWT Token Generation
+
+* Generated JWT tokens after successful login.
+* Configured token creation using a secret key and token settings.
+
+### JWT Claims
+
+* Added custom claims to the generated token:
+
+  * UserId
+  * Name
+  * Email
+
+* Learned how claims store authenticated user information inside the token.
+
+## Technical Concepts Applied
+
+### Authentication
+
+* Understood the difference between Authentication and Authorization.
+* Implemented authentication using JWT Bearer Tokens.
+
+### JWT (JSON Web Token)
+
+* Learned the structure of a JWT:
+
+  * Header
+  * Payload
+  * Signature
+
+* Understood how JWT enables stateless authentication.
+
+### Claims-Based Identity
+
+* Added user information as claims within the token.
+* Learned how claims can be used to identify the logged-in user throughout the application.
+
+### Security Concepts
+
+* Improved API security by requiring valid credentials before issuing a token.
+* Prepared the foundation for role-based and protected endpoints.
+
+## Progress Status
+
+✅ User Registration Implemented
+✅ User Login Implemented
+✅ Email Lookup Implemented
+✅ JWT Token Generation Implemented
+✅ Claims Added (UserId, Name, Email)
+✅ Authentication Module Working Successfully
