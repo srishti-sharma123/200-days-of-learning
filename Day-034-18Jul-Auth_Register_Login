@@ -1,0 +1,65 @@
+# Day 034 - Learning Log
+
+📅 **Date:** 18 July 2026
+
+## What I Accomplished Today
+
+Started implementing the authentication module for my **Expense Tracker API** by creating the registration and login functionality.
+
+This was my first step toward securing the API and enabling user authentication.
+
+## Features Implemented
+
+### User Registration
+
+* Created the **Register API** endpoint.
+* Implemented functionality to add new users to the database.
+* Validated user details before storing them.
+
+### User Login
+
+* Created the **Login API** endpoint.
+* Implemented user authentication using email and password.
+* Verified user credentials against the database.
+
+### Authentication Controller
+
+* Created a dedicated **Auth Controller** to handle authentication-related requests.
+* Organized authentication logic separately from other modules.
+
+## Technical Concepts Applied
+
+### ASP.NET Core Web API
+
+* Created API endpoints for authentication operations.
+* Handled HTTP POST requests for registration and login.
+
+### Entity Framework Core
+
+* Used EF Core to store and retrieve user information.
+* Queried the database to validate login credentials.
+
+### Authentication Workflow
+
+* Understood the basic flow:
+
+  * User Registration
+  * User Login
+  * Credential Validation
+  * Token Generation (next step)
+
+## Key Takeaways
+
+* Authentication is a crucial part of modern web applications.
+* Separating authentication functionality into its own controller improves project organization.
+* Login functionality requires validating user credentials before granting access.
+* This lays the foundation for implementing JWT-based authentication.
+
+## Progress Status
+
+✅ Auth Controller Created
+✅ User Registration Endpoint Implemented
+✅ User Login Endpoint Implemented
+✅ Database Validation for Users Added
+✅ Authentication Module Started
+
