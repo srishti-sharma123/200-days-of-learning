@@ -1,1 +1,55 @@
+# Day 035 - Learning Log
 
+📅 **Date:** 19 July 2026
+
+## What I Accomplished Today
+
+Successfully published my **Expense Tracker API** project to GitHub and made the project available online for version control, collaboration, and portfolio purposes.
+
+### GitHub Repository
+
+[ExpenseTrackerAPI Repository](https://github.com/srishti-sharma123/ExpenseTrackerAPI?utm_source=chatgpt.com)
+
+## Tasks Completed
+
+### Version Control
+
+* Organized the project structure before publishing.
+* Added project files to Git tracking.
+* Committed the latest changes.
+* Connected the local repository to GitHub.
+* Successfully pushed the complete source code to GitHub.
+
+### Project Modules Published
+
+* User Module
+* Category Module
+* Transaction Module
+* Repository Pattern Implementation
+* DTOs (Data Transfer Objects)
+* Entity Framework Core Integration
+* SQL Server Database Integration
+* CRUD Operations
+* Swagger API Testing Setup
+
+## Key Takeaways
+
+* GitHub serves as both a code backup and a professional portfolio platform.
+* Version control helps track project progress and changes over time.
+* Publishing projects online makes it easier to showcase technical skills to recruiters and hiring managers.
+* Maintaining clean commits and repository structure is an important software development practice.
+
+## Progress Status
+
+✅ Expense Tracker API Uploaded to GitHub
+✅ Source Code Version Controlled
+✅ Remote Repository Configured
+✅ Project Available for Portfolio Showcase
+
+## Next Goal
+
+* Continue enhancing the Expense Tracker API
+* Add JWT Authentication
+* Secure endpoints using Authorization
+* Improve project documentation
+* Add validation and error handling
